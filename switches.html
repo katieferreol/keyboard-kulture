@@ -1,0 +1,137 @@
+<!Doctype HTML>
+<html lang="en">
+	<head>
+		<title>Keyboard Kulture</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+    <script type="text/javascript">
+        const redSwitch = new Audio("audios/redSwitch.mp3");
+        const yellowSwitch = new Audio("audios/yellowSwitch.mp3");
+        const blackSwitch = new Audio("audios/blackSwitch.mp3");
+        
+        const brownSwitch = new Audio("audios/brownSwitch.mp3");
+        const clearSwitch = new Audio("audios/clearSwitch.mp3");
+        const purpleSwitch = new Audio("audios/purpleSwitch.mp3");
+
+        const blueSwitch = new Audio("audios/blueSwitch.mp3");
+        const greenSwitch = new Audio("audios/greenSwitch.mp3");
+        const jadeSwitch = new Audio("audios/jadeSwitch.mp3");
+    </script>
+    
+	<body>
+	
+	<div class="wrapper">
+		<header class="a">
+            <img src="img/logoR.png" alt="Page Logo (Rectangle)" class="logoRect"> 
+            <img src="img/logoS.png" alt="Page Logo (Square)" class="logoSquare">
+        </header>
+        
+		<div class="b">
+            <ul class="navigation">
+                <li><a href="index.html" aria-label="Home Page">Home</a></li>
+                <li><a href="size.html" aria-label="Size Page">Size</a></li>
+                <li><a href="#" aria-label="Switches Page">Switches</a></li>
+                <li><a href="keycaps.html" aria-label="Keycaps Page">Keycaps</a></li>
+            </ul>
+        </div>	
+
+		<div class="c">
+            <section class="title">
+                <h1>Switches.</h1>
+                <p><i>Mechanisms under the keycaps that give it sound and feel.</i></p>
+            </section>
+
+            <section class="switchesContainer">
+                <div class="switchItem center">
+                    <h2 class="subtitle">Linear</h2>
+                    <p class="content">Has no resistance when pushed, leading in a smooth, silent press (click switches to test).</p>
+                </div>
+                <div class="switchItem center">
+                    <h2 class="subtitle">Tactile</h2>
+                    <p class="content">Has a distinct bump in the middle when you press down, resulting in a slight sound (click switches to test).</p>
+                </div>
+                <div class="switchItem center">
+                    <h2 class="subtitle">Clicky</h2>
+                    <p class="content">Make a loud, sharp noise when pressed down, giving the most audial feedback (click switches to test).</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/redSwitch.png" alt="Red Switch" onclick="redSwitch.play();">
+                    <p>Red Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/brownSwitch.png" alt="Brown Switch" onclick="brownSwitch.play();">
+                    <p>Brown Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/blueSwitch.png" alt="Blue Switch" onclick="blueSwitch.play();">
+                    <p>Blue Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/yellowSwitch.png" alt="Yellow Switch" onclick="yellowSwitch.play();">
+                    <p>Yellow Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/clearSwitch.png" alt="Clear Switch" onclick="clearSwitch.play();">
+                    <p>Clear Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/greenSwitch.png" alt="Green Switch" onclick="greenSwitch.play();">
+                    <p>Green Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/blackSwitch.png" alt="Black Switch" onclick="blackSwitch.play();">
+                    <p>Black Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/purpleSwitch.png" alt="Purple Switch" onclick="purpleSwitch.play();">
+                    <p>Purple Switch</p>
+                </div>
+                <div class="switchItem content">
+                    <img src="img/jadeSwitch.png" alt="Jade Switch" onclick="jadeSwitch.play();">
+                    <p>Jade Switch</p>
+                </div>
+            </section>
+
+            <p class="center emphasis"><i>Visit the rest of your keeb preferences:</i></p>
+        
+            <section class="categories">
+                <div>
+                    <h2 class="subtitle">Size</h2>
+                    <a href="size.html" aria-label="Size Page"><img src="img/layout.png" alt="4-Key Layout" class="choices"></a>
+                </div>
+                <div>
+                    <h2 class="subtitle">Home</h2>
+                    <a href="index.html" aria-label="Home Page"><img src="img/home.png" alt="2-Key Layout" class="choices"></a>
+                </div>
+                <div>
+                    <h2 class="subtitle">Keycaps</h2>
+                    <a href="keycaps.html" aria-label="Keycaps Page"><img src="img/keycaps.png" alt="Keycap" class="choices"></a>
+                </div>
+            </section>
+        </div>
+        	
+		<footer class="d center content">
+            <a href="https://www.instagram.com/ferreolkatie/?hl=en" aria-label="Instagram Page"><img src="img/instagram.png" alt="Instagram Logo" ></a>
+            <a href="https://www.linkedin.com/in/kathleen-marie-katie-ferreol-2a06711b8/" aria-label="LinkedIn Page"><img src="img/linkedin.png" alt="Linkedin Logo"></a>
+            <a href="https://github.com/katieferreol" aria-label="Github Page"><img src="img/github.png" alt="Github Logo"></a>
+            <p>Product of Katie Ferreol inc. All rights reserved</p>
+        </footer>								
+	</div>
+	
+    <div class="backgroundItems">
+        <img id="pinkSwitch" src="img/pinkSwitch.png" alt="Pink Switch">
+        <img id="blueKeycap" src="img/blueKeycap.png" alt="Blue Keycap">
+        <img id="graySwitch" src="img/graySwitch.png" alt="Gray Switch">
+        <img id="pinkKeycap" src="img/pinkKeycap.png" alt="Pink Keycap">
+        <img id="blueSwitch" src="img/blueClick.png" alt="Blue Switch">
+        <img id="redSwitch" src="img/redClick.png" alt="Red Switch">
+        <img id="pawKeycap" src="img/pawKeycap.png" alt="Paw Keycap">
+        <img id="cloudKeycap" src="img/cloudKeycap.png" alt="Cloud Keycap">
+    </div>
+
+	</body>
+
+</html>
